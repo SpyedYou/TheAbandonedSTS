@@ -23,9 +23,9 @@ public class SpearWallBlock extends DynamicVariable
     public int value(AbstractCard card)
     {
         if(card.upgraded) {
-            return card.baseBlock - 7;
+            return card.baseBlock - 8;
         } else {
-            return card.baseBlock - 5;
+            return card.baseBlock - 6;
         }
     }
 
