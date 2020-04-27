@@ -58,6 +58,7 @@ public class RepeatedStrike extends CustomCard {
         AbstractCard newCard = this.makeStatEquivalentCopy();
         newCard.baseDamage += this.magicNumber;
         newCard.magicNumber += this.magicNumber;
+        newCard.cost = 1;
 
         AbstractDungeon.actionManager.addToBottom(
                 new DamageAction(m, new DamageInfo(p, damage, damageTypeForTurn),
