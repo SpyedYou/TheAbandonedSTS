@@ -9,7 +9,7 @@
     <version>0.4.0</version>
     <description>A mod that adds a new character, The Abandoned, containing a total of 75 cards.
 
-Also contains unlocks for the character, adding an additional 3 relics into the game pool. </description>
+Also contains unlocks for the character, adding an additional 6 relics - 3 for the new character and 3 shared relics - into the game's relic pools. </description>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
