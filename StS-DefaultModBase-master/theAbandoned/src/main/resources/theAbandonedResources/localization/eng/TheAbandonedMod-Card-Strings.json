@@ -157,8 +157,8 @@
   },
   "theAbandoned:RepeatedStrike": {
     "NAME": "Repeated Strike",
-    "DESCRIPTION": "Ethereal. Exhaust. NL Deal !D! Damage. NL Add another *Repeated *Strike to your hand, with #y!M! increased damage.",
-    "UPGRADE_DESCRIPTION": "Ethereal. Exhaust. NL Deal !D! Damage. NL Add another *Repeated *Strike+ to your hand, with #y!M! increased damage."
+    "DESCRIPTION": "Ethereal. Exhaust. NL Deal !D! Damage. NL Add another *Repeated *Strike to your hand, with !M! increased damage.",
+    "UPGRADE_DESCRIPTION": "Ethereal. Exhaust. NL Deal !D! Damage. NL Add another *Repeated *Strike+ to your hand, with !M! increased damage."
   },
   "theAbandoned:SpearWall": {
     "NAME": "Spear Wall",
