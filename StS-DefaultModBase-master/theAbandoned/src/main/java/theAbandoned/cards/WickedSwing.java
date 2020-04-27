@@ -45,7 +45,6 @@ public class WickedSwing extends CustomCard {
     private static final int DAMAGE = 10;
     private static final int UPGRADE_PLUS_DMG = 4;
     private static final int MAGIC_NUM = 2;
-    private static final int UPG_MAGIC_NUM = 1;
 
     public WickedSwing() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
@@ -86,7 +85,6 @@ public class WickedSwing extends CustomCard {
         if (!upgraded) {
             upgradeName();
             upgradeDamage(UPGRADE_PLUS_DMG);
-            upgradeMagicNumber(UPG_MAGIC_NUM);
             initializeDescription();
         }
     }
