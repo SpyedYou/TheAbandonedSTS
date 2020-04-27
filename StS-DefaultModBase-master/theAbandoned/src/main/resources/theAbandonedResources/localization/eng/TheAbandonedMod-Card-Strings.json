@@ -1,0 +1,278 @@
+{
+  "theAbandoned:Strike_Abandoned": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "theAbandoned:Defend_Abandoned": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "theAbandoned:SkyUppercut": {
+    "NAME": "Sky Uppercut",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! theabandoned:Battered."
+  },
+  "theAbandoned:SwiftKneeStrike": {
+    "NAME": "Swift Knee -Strike-",
+    "DESCRIPTION": "Deal !D! damage. NL theabandoned:Alternate: *Swift *Knee *-Sweep-.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL theabandoned:Alternate: *Swift *Knee *-Sweep-+."
+  },
+  "theAbandoned:SwiftKneeSweep": {
+    "NAME": "Swift Knee -Sweep-",
+    "DESCRIPTION": "Gain !B! Block. NL theabandoned:Alternate: *Swift *Knee *-Strike-.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL theabandoned:Alternate: *Swift *Knee *-Strike-+."
+  },
+  "theAbandoned:LowBlows": {
+    "NAME": "Low Blows",
+    "DESCRIPTION": "Deal !D! damage 2 times. NL Apply !M! theabandoned:Battered."
+  },
+  "theAbandoned:FallBack": {
+    "NAME": "Fall Back",
+    "DESCRIPTION": "Gain !B! Block for each enemy."
+  },
+  "theAbandoned:SweepAttack": {
+    "NAME": "Sweep Attack",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Gain !B! Block."
+  },
+  "theAbandoned:FastJab": {
+    "NAME": "Fast Jab",
+    "DESCRIPTION": "Deal !D! damage. NL theabandoned:Initiative: Draw !M! cards."
+  },
+  "theAbandoned:HelmetSwap": {
+    "NAME": "Helmet Swap",
+    "DESCRIPTION": "Gain !B! Block. NL Put a card from your discard pile on top of your draw pile."
+  },
+  "theAbandoned:AxeThrow": {
+    "NAME": "Axe Throw",
+    "DESCRIPTION": "Deal !D! damage. NL Shuffle this card into your draw pile."
+  },
+  "theAbandoned:Reposition": {
+    "NAME": "Reposition",
+    "DESCRIPTION": "Gain !B! Block. NL The next theabandoned:Initiative card played this turn triggers it's effect."
+  },
+  "theAbandoned:Hack": {
+    "NAME": "Hack",
+    "DESCRIPTION": "Deal !D! damage. Shuffle an *And *Back into your draw pile.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. Shuffle an *And *Back+ into your draw pile."
+  },
+  "theAbandoned:Brawl": {
+    "NAME": "Brawl",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Apply !M! theabandoned:Battered to ALL enemies."
+  },
+  "theAbandoned:BeatEmUp": {
+    "NAME": "Beat Em Up",
+    "DESCRIPTION": "Apply !M! theabandoned:Battered. NL Draw 2 cards."
+  },
+  "theAbandoned:AndBack": {
+    "NAME": "And Back",
+    "DESCRIPTION": "Gain !B! Block. NL theabandoned:Initiative: Increase the damage of all 'Hack' by !M! this combat. NL Exhaust."
+  },
+  "theAbandoned:Thrust": {
+    "NAME": "Thrust",
+    "DESCRIPTION": "Deal !D! damage. NL When drawn, reduce this card's cost by !M! this combat."
+  },
+  "theAbandoned:WeaponThrow": {
+    "NAME": "Weapon Throw",
+    "DESCRIPTION": "Exhaust a card. NL If the card is an attack, deal !D! damage to a random enemy. NL Else, gain !B! Block."
+  },
+  "theAbandoned:BounceStrike": {
+    "NAME": "Bounce Strike",
+    "DESCRIPTION": "Deal !D! damage. NL The next theabandoned:Initiative card played this turn triggers it's effect."
+  },
+  "theAbandoned:ExtendedStrike": {
+    "NAME": "Extended Strike",
+    "DESCRIPTION": "Deal !D! damage. NL theabandoned:Initiative: Deal !theAbandoned:ED! additional damage."
+  },
+  "theAbandoned:Backhand": {
+    "NAME": "Backhand",
+    "DESCRIPTION": "Deal !D! damage. NL theabandoned:Initiative: Apply !M! Weak."
+  },
+  "theAbandoned:Counterweight": {
+    "NAME": "Counterweight",
+    "DESCRIPTION": "Gain 1 Strength for each enemy. NL Exhaust."
+  },
+  "theAbandoned:SlideKick": {
+    "NAME": "Slide Kick",
+    "DESCRIPTION": "Deal !D! damage. NL theabandoned:Initiative: Gain [E]."
+  },
+  "theAbandoned:RetractingSpikes": {
+    "NAME": "Retracting Spikes",
+    "DESCRIPTION": "For each skill played, gain !M! thorns for the rest of the turn."
+  },
+  "theAbandoned:SparePlating": {
+    "NAME": "Spare Plating",
+    "DESCRIPTION": "If you have no skills in your hand, gain !B! Block."
+  },
+  "theAbandoned:RecklessPlan": {
+    "NAME": "Reckless Plan",
+    "DESCRIPTION": "Whenever you draw an attack card, deal !M! damage to a random enemy."
+  },
+  "theAbandoned:Overextend": {
+    "NAME": "Overextend",
+    "DESCRIPTION": "Deal !D! damage. NL Gain 1 Vulnerable."
+  },
+  "theAbandoned:Scout": {
+    "NAME": "Scout",
+    "DESCRIPTION": "Innate. NL Scry !M!. Draw 1. NL Exhaust."
+  },
+  "theAbandoned:DoubleAxe": {
+    "NAME": "Double Axe",
+    "DESCRIPTION": "Deal !D! damage. NL Deal !D! damage to a random enemy."
+  },
+  "theAbandoned:WildSwings": {
+    "NAME": "Wild Swings",
+    "DESCRIPTION": "Deal !D! damage to a random enemy X times."
+  },
+  "theAbandoned:WickedSwing": {
+    "NAME": "Wicked Swing",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL  theabandoned:Initiative: Apply !M! Vulnerable to ALL enemies."
+  },
+  "theAbandoned:ShieldsUp": {
+    "NAME": "Shields Up!",
+    "DESCRIPTION": "Gain !B! Block. NL Exhaust. NL theabandoned:Initiative: Does not Exhaust."
+  },
+  "theAbandoned:Thwart": {
+    "NAME": "Thwart",
+    "DESCRIPTION": "Gain !B! Block. NL If the enemy intends to attack, apply !M! theabandoned:Battered."
+  },
+  "theAbandoned:GutPunch": {
+    "NAME": "Gut Punch",
+    "DESCRIPTION": "Deal !D! damage. NL theabandoned:Initiative: Apply !M! theabandoned:Battered."
+  },
+  "theAbandoned:Retarget": {
+    "NAME": "Retarget",
+    "DESCRIPTION": "theabandoned:Initiative: Draw !M! cards."
+  },
+  "theAbandoned:ShoulderBarge": {
+    "NAME": "Shoulder Barge",
+    "DESCRIPTION": "Deal !D! Damage. NL Gain !M! Dexterity for this turn."
+  },
+  "theAbandoned:IronFist": {
+    "NAME": "Iron Fist",
+    "DESCRIPTION": "Deal !D! Damage. NL If the enemy has Block, apply !M! Vulnerable."
+  },
+  "theAbandoned:RepeatingStrikes": {
+    "NAME": "Repeating Strikes",
+    "DESCRIPTION": "Deal !D! Damage. NL Add a *Repeated *Strike to your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage. NL Add a *Repeated *Strike+ to your hand."
+  },
+  "theAbandoned:RepeatedStrike": {
+    "NAME": "Repeated Strike",
+    "DESCRIPTION": "Deal !D! Damage. NL Add another *Repeated *Strike to your hand, with !M! increased damage.",
+    "UPGRADE_DESCRIPTION": "Ethereal. Exhaust. NL Deal !D! Damage. NL Add another *Repeated *Strike+ to your hand, with !M! increased damage."
+  },
+  "theAbandoned:SpearWall": {
+    "NAME": "Spear Wall",
+    "DESCRIPTION": "Gain !B! Block. NL Each time you are attacked this turn, gain !theAbandoned:SW! Block."
+  },
+  "theAbandoned:SwipeLow": {
+    "NAME": "Swipe -Low-",
+    "DESCRIPTION": "Deal !D! Damage. NL Apply !M! Vulnerable. NL theabandoned:Alternate: *Swipe *-High-.",
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage. NL Apply !M! Vulnerable. NL theabandoned:Alternate: *Swipe *-High-+."
+  },
+  "theAbandoned:SwipeHigh": {
+    "NAME": "Swipe -High-",
+    "DESCRIPTION": "Deal !D! Damage. NL Apply !M! Weak. NL theabandoned:Alternate: *Swipe *-Low-.",
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage. NL Apply !M! Weak. NL theabandoned:Alternate: *Swipe *-Low-+."
+  },
+  "theAbandoned:TendonSlice": {
+    "NAME": "Tendon Slice",
+    "DESCRIPTION": "Deal !D! damage. Enemy loses strength equal to one third of the damage taken. NL Exhaust."
+  },
+  "theAbandoned:StoneFortress": {
+    "NAME": "Stone Fortress",
+    "DESCRIPTION": "Gain 1 Intangible. Draw 1 less card next turn. Exhaust."
+  },
+  "theAbandoned:EchoBlade": {
+    "NAME": "Echo Blade",
+    "DESCRIPTION": "Whenever you play an attack, gain !M! Block."
+  },
+  "theAbandoned:Invigorate": {
+    "NAME": "Invigorate",
+    "DESCRIPTION": "Ethereal. NL Remove ALL debuffs. NL Exhaust."
+  },
+  "theAbandoned:SkyDrop": {
+    "NAME": "Sky Drop",
+    "DESCRIPTION": "Innate. NL Deal !D! damage. NL Apply !M! Vulnerable. NL Exhaust."
+  },
+  "theAbandoned:Overwhelm": {
+    "NAME": "Overwhelm",
+    "DESCRIPTION": "Whenever you apply theabandoned:Battered to an enemy, gain 1 Strength.",
+    "UPGRADE_DESCRIPTION": "Innate . NL "
+  },
+  "theAbandoned:BlindFury": {
+    "NAME": "Blind Fury",
+    "DESCRIPTION": "Apply theabandoned:Initiative on all cards played this turn. NL Play your entire hand. NL Exhaust."
+  },
+  "theAbandoned:SoulStealer": {
+    "NAME": "Soul Stealer",
+    "DESCRIPTION": "Deals !D! damage. NL If Fatal, increases a random attack card's damage by !M!. NL Exhaust."
+  },
+  "theAbandoned:DauntingPresence": {
+    "NAME": "Daunting Presence",
+    "DESCRIPTION": "Gain Block equal to ALL enemies theabandoned:Battered. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain Block equal to ALL enemies theabandoned:Battered."
+  },
+  "theAbandoned:Ferocity": {
+    "NAME": "Ferocity",
+    "DESCRIPTION": "At the start of your turn, apply !M! theabandoned:Prey to a random enemy."
+  },
+  "theAbandoned:ImpendingDoom": {
+    "NAME": "Impending Doom",
+    "DESCRIPTION": "Deal !D! damage. NL Shuffle a *Doom into your draw pile.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Shuffle a *Doom+ into your draw pile."
+  },
+  "theAbandoned:Doom": {
+    "NAME": "Doom",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak, Vulnerable and theabandoned:Battered. NL Exhaust."
+  },
+  "theAbandoned:Overkill": {
+    "NAME": "Overkill",
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal, heal for the excess damage dealt. NL Exhaust."
+  },
+  "theAbandoned:CleanseEvil": {
+    "NAME": "Cleanse Evil",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Remove all enemies' debuffs."
+  },
+  "theAbandoned:DefaultCommonPower": {
+    "NAME": "Hold Place",
+    "DESCRIPTION": "Gain !M! theabandoned:Keyword."
+  },
+  "theAbandoned:DefaultUncommonAttack": {
+    "NAME": "Big slap",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "theAbandoned:DefaultUncommonSkill": {
+    "NAME": "A Better Defend",
+    "DESCRIPTION": "Gain !B! Plated Armor. Affected by Dexterity."
+  },
+  "theAbandoned:DefaultUncommonPower": {
+    "NAME": "Weirdness",
+    "DESCRIPTION": "Gain X theabandoned:Keywords.",
+    "UPGRADE_DESCRIPTION": "Gain X +1 theabandoned:Keywords."
+  },
+  "theAbandoned:DefaultRareAttack": {
+    "NAME": "TOUCH",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "theAbandoned:DefaultRareSkill": {
+    "NAME": "For Each Loop x2",
+    "DESCRIPTION": "Apply !M! Vulnerable to all enemies, 2 times.",
+    "UPGRADE_DESCRIPTION": "Apply !M! Vulnerable to all enemies, 3 times."
+  },
+  "theAbandoned:DefaultRarePower": {
+    "NAME": "In-Progress Form",
+    "DESCRIPTION": "At the start of your turn, play a TOUCH."
+  },
+  "theAbandoned:DefaultAttackWithVariable": {
+    "NAME": "Special Strike",
+    "DESCRIPTION": "Deal !D! damage [E] times. NL (Deal !theAbandoned:ENERGY_DAMAGE! damage total.)"
+  },
+  "theAbandoned:DefaultSecondMagicNumberSkill": {
+    "NAME": "Cool 2 Number Card",
+    "DESCRIPTION": "Apply !M! Vulnerable and !theAbandoned:SecondMagic! poison to an enemy."
+  },
+  "theAbandoned:OrbSkill": {
+    "NAME": "Get Orb",
+    "DESCRIPTION": "Channel 1 Default Orb."
+  }
+}

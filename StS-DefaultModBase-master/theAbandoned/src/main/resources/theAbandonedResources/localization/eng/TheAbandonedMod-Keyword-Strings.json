@@ -1,0 +1,45 @@
+[
+  {
+    "NAMES": [
+      "keyword",
+      "keywords"
+    ],
+    "DESCRIPTION": "Whenever you play a card, gain 1 dexterity this turn only."
+  },
+  {
+    "NAMES": [
+      "initiative",
+      "initiative:"
+    ],
+    "DESCRIPTION": "If this is the first card played this turn, there is an additional effect."
+  },
+  {
+    "NAMES": [
+      "battered"
+    ],
+    "DESCRIPTION": "Battered creatures take 10% increased damage per stack from Attacks."
+  },
+  {
+    "NAMES": [
+      "prey"
+    ],
+    "DESCRIPTION": "When taking damage, applies #yBattered to a random enemy."
+  },
+  {
+    "NAMES": [
+      "alternate"
+    ],
+    "DESCRIPTION": "When played, ALL alternate cards change effects."
+  },
+  {
+    "PROPER_NAME": "Multiword Keyword",
+    "NAMES": [
+      "Multiword Keyword",
+      "multiword_keyword",
+      "multiword_keywords",
+      "multikey",
+      "multikeyword"
+    ],
+    "DESCRIPTION": "Make sure the first element in the NAMES is the same as your PROPER_NAME. The rest is to match keywords like the single word keyword."
+  }
+]

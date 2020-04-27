@@ -1,0 +1,10 @@
+{
+"theAbandoned:PlaceholderPotion": {
+        "NAME": "Placeholder Potion",
+        "DESCRIPTIONS": ["Gain ", " At the end of your turn, lose ", " Strength."]
+},
+"theAbandoned:DisengagingPotion": {
+        "NAME": "Disengaging Potion",
+        "DESCRIPTIONS": ["Your next ", "Initiative card", "Initiative cards", " played this turn will trigger Initiative effects."]
+}
+}

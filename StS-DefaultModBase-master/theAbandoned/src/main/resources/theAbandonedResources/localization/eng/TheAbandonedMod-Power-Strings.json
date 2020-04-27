@@ -1,0 +1,50 @@
+{
+"theAbandoned:CommonPower": {
+        "NAME": "Placeholder Power",
+        "DESCRIPTIONS": ["You applied #b", " keyword.", " keywords."]
+},
+"theAbandoned:RetractingSpikesPower": {
+        "NAME": "Retracting Spikes",
+        "DESCRIPTIONS": ["Whenever you play a skill, gain #b", " Thorn."," Thorns."]
+},
+"theAbandoned:RetractingSpikesDownPower": {
+        "NAME": "Thorns Down",
+        "DESCRIPTIONS": ["At the start of your next turn, lose #b", " Thorn."," Thorns."]
+},
+"theAbandoned:FirstCardPower": {
+        "NAME": "Free Initiative",
+        "DESCRIPTIONS": ["The next #b", " Initiative card trigger's it's effect.", " Initiative cards trigger's their effects."]
+},
+"theAbandoned:RecklessPlanPower": {
+        "NAME": "Reckless Plan",
+        "DESCRIPTIONS": ["Whenever you draw an attack card, deal #b", " damage to a random enemy."]
+},
+"theAbandoned:SpearWallPower": {
+        "NAME": "Spear Wall",
+        "DESCRIPTIONS": ["When attacked, gain #b", " block."]
+},
+"theAbandoned:EchoBladePower": {
+        "NAME": "Echo Blade",
+        "DESCRIPTIONS": ["Whenever you play an attack, gain #b", " block."]
+},
+"theAbandoned:OverwhelmPower": {
+        "NAME": "Overwhelm",
+        "DESCRIPTIONS": ["Whenever you apply a debuff to an enemy, gain ", " Strength."]
+},
+"theAbandoned:BatteredPower": {
+        "NAME": "Battered",
+        "DESCRIPTIONS": ["Unit takes #b", "% increased damage from Attacks. Stacks are halved at the end of the turn.", "% increased damage from Attacks. Stacks are reduced by 1/3 at the end of the turn."]
+},
+"theAbandoned:FerocityPower": {
+                "NAME": "Ferocity",
+                "DESCRIPTIONS": ["Applies #b", " Prey to a random enemy at the start of the turn."]
+},
+"theAbandoned:PreyPower": {
+                "NAME": "Prey",
+                "DESCRIPTIONS": ["When attacked, applies #b", " Battered to a random enemy."]
+},
+"theAbandoned:RarePower": {
+        "NAME": "Placeholder Power",
+        "DESCRIPTIONS": ["At the start of your turn, TOUCH #b", " enemy." , " enemies."]
+}
+}

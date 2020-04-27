@@ -1,0 +1,62 @@
+{
+  "theAbandoned:PlaceholderRelic": {
+    "NAME": "Placeholder Energy Relic",
+    "FLAVOR": "The snake is a friend.",
+    "DESCRIPTIONS": [
+      "Gain #b1 [E] ."
+    ]
+  },
+  "theAbandoned:PlaceholderRelic2": {
+    "NAME": "Placeholder Relic 2",
+    "FLAVOR": "You feel stronger.",
+    "DESCRIPTIONS": [
+      "At the start of each combat, gain #b1 #yStrength."
+    ]
+  },
+  "theAbandoned:OldBadge": {
+    "NAME": "Old Badge",
+    "FLAVOR": "An old badge from an old war.",
+    "DESCRIPTIONS": [
+      "Non-upgraded attack cards deal #b2 additional damage."
+    ]
+  },
+  "theAbandoned:TrainingGauntlets": {
+    "NAME": "Training Gauntlets",
+    "FLAVOR": "Leather gauntlets, ripped and beaten from use.",
+    "DESCRIPTIONS": [
+      "At the end of the turn, #yBattered enemies lose a quarter stacks rather than half."
+    ]
+  },
+  "theAbandoned:AggressiveStance": {
+    "NAME": "Aggressive Stance",
+    "FLAVOR": "The first to draw blood earns the first rights of the feast",
+    "DESCRIPTIONS": [
+      "The first non X attack played in combat costing [E] [E] or more refunds [E] ."
+    ]
+  },
+  "theAbandoned:MirrorPendant": {
+    "NAME": "Mirror Pendant",
+    "FLAVOR": "A powerful force emanates from the pendant, alerting all those nearby.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. #yInitiative effects no longer trigger on the first card played."
+    ]
+  },
+  "theAbandoned:DefaultClickableRelic": {
+    "NAME": "Right-Clicky Relic",
+    "FLAVOR": "The more you right-click it, the more orbs you've evoked in your lifetime.",
+    "DESCRIPTIONS": [
+      "[#2aecd7]Usable [#2aecd7]once [#2aecd7]per [#2aecd7]turn.[] NL #yEvoke your rightmost Orb.",
+      "YOU ARE MINE!"
+    ]
+  },
+  "theAbandoned:BottledPlaceholderRelic": {
+    "NAME": "Bottled Placeholder",
+    "FLAVOR": "What is this?",
+    "DESCRIPTIONS": [
+      "Choose a card. Whenever you take play any card, draw the chosen card.",
+      "Whenever you play a card, draw ",
+      ".",
+      "Select a card to bottle for "
+    ]
+  }
+}
