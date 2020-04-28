@@ -4,12 +4,14 @@ import basemod.interfaces.CloneablePowerInterface;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.powers.StrengthPower;
 import com.megacrit.cardcrawl.powers.ThornsPower;
 import theAbandoned.TheAbandonedMod;
 import theAbandoned.util.TextureLoader;
@@ -46,12 +48,23 @@ public class RetractingSpikesDownPower extends AbstractPower implements Cloneabl
     //Now at the start of the turn, remove the added thorns.
     @Override
     public void atStartOfTurn() {
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this.owner, this.owner, new ThornsPower(this.owner, -(this.amount))));
-        AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(this.owner, this.owner, this));
-        AbstractPower currentThorn = this.owner.getPower(ThornsPower.POWER_ID);
-        if(currentThorn != null) {
-            if (currentThorn.amount == 0) {
-                AbstractDungeon.actionManager.addToTop(new RemoveSpecificPowerAction(this.owner, this.owner, ThornsPower.POWER_ID));
+        AbstractPower artifact;
+        this.flash();
+        if(this.owner.hasPower("Artifact")){
+            artifact = this.owner.getPower("Artifact");
+            if(artifact.amount > 1) {
+                this.addToTop(new ReducePowerAction(this.owner, this.owner, "Artifact", 1));
+            } else {
+                this.addToTop(new RemoveSpecificPowerAction(this.owner, this.owner, "Artifact"));
+            }
+        } else {
+            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this.owner, this.owner, new ThornsPower(this.owner, -(this.amount))));
+            AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(this.owner, this.owner, this));
+            AbstractPower currentThorn = this.owner.getPower(ThornsPower.POWER_ID);
+            if (currentThorn != null) {
+                if (currentThorn.amount == 0) {
+                    AbstractDungeon.actionManager.addToTop(new RemoveSpecificPowerAction(this.owner, this.owner, ThornsPower.POWER_ID));
+                }
             }
         }
     }
