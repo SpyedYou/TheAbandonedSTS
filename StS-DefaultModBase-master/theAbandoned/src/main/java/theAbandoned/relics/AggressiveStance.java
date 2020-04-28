@@ -5,6 +5,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import theAbandoned.TheAbandonedMod;
 import theAbandoned.util.TextureLoader;
 
@@ -26,11 +27,6 @@ public class AggressiveStance extends CustomRelic {
 
     public AggressiveStance() {super(ID, IMG, OUTLINE, RelicTier.STARTER, LandingSound.FLAT);}
 
-    public void atPreBattle() {
-        activated = true;
-        this.grayscale = false;
-    }
-
     public void onUseCard(AbstractCard card, UseCardAction action) {
         if (card.type == AbstractCard.CardType.ATTACK && (card.costForTurn >= 2 && !card.freeToPlayOnce && card.cost != -1 && card.energyOnUse >= 2) && this.activated) {
             this.activated = false;
@@ -41,7 +37,11 @@ public class AggressiveStance extends CustomRelic {
 
             this.pulse = false;
         }
+    }
 
+    public void justEnteredRoom(AbstractRoom room) {
+        activated = true;
+        this.grayscale = false;
     }
 
     // Description
