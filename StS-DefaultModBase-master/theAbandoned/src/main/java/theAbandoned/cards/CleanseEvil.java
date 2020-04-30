@@ -58,9 +58,9 @@ public class CleanseEvil extends CustomCard {
 
         while(var3.hasNext()) {
             AbstractMonster mo = var3.next();
-            this.addToBot(new FirstCardPlayed(
+            AbstractDungeon.actionManager.addToBottom(
                     //Actual debuff removal applies after damage is dealt
-                    new RemoveDebuffsAction(mo)));
+                    new RemoveDebuffsAction(mo));
         }
     }
 
