@@ -164,6 +164,10 @@
     "NAME": "Spear Wall",
     "DESCRIPTION": "Gain !B! Block. NL Each time you are attacked this turn, gain !theAbandoned:SW! Block."
   },
+  "theAbandoned:ReactiveArmor": {
+    "NAME": "Reactive Armor",
+    "DESCRIPTION": "Gain !B! Block. NL At the start of your next turn, deal damage to ALL enemies equal to half your Block when this card was played."
+  },
   "theAbandoned:SwipeLow": {
     "NAME": "Swipe -Low-",
     "DESCRIPTION": "Deal !D! Damage. NL Apply !M! Vulnerable. NL theabandoned:Alternate: *Swipe *-High-.",

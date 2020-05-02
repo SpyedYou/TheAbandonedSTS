@@ -43,7 +43,7 @@ public class WildSwings extends CustomCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         AbstractDungeon.actionManager.addToBottom(
-                new WildSwingsAction(p, this.makeStatEquivalentCopy(), this.freeToPlayOnce, this.energyOnUse));
+                new WildSwingsAction(p, this, this.freeToPlayOnce, this.energyOnUse));
     }
 
     @Override

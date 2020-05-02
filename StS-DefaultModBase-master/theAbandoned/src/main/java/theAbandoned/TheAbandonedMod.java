@@ -316,6 +316,7 @@ public class TheAbandonedMod implements
 
         // This adds a relic to the Shared pool. Any character can find these relics.
         BaseMod.addRelic(new OldBadge(), RelicType.SHARED);
+        BaseMod.addRelic(new GlowingRock(), RelicType.SHARED);
 
         // Unlockable relics go in the unlock bundles here as well
         /*unlockItems2 = new CustomUnlockBundle(AbstractUnlock.UnlockType.RELIC,
@@ -377,7 +378,7 @@ public class TheAbandonedMod implements
 
 
         /*
-        * ~~~Uncommon Cards 20/35~~~
+        * ~~~Uncommon Cards 21/35~~~
         */
         // Uncommon Attacks, 11
         BaseMod.addCard(new ExtendedStrike());
@@ -392,7 +393,7 @@ public class TheAbandonedMod implements
         BaseMod.addCard(new IronFist());
         BaseMod.addCard(new RepeatingStrikes());
 
-        // Uncommon Skills, 7
+        // Uncommon Skills, 8
         BaseMod.addCard(new Counterweight());
         BaseMod.addCard(new SparePlating());
         BaseMod.addCard(new Scout());
@@ -400,6 +401,7 @@ public class TheAbandonedMod implements
         BaseMod.addCard(new Retarget());
         BaseMod.addCard(new Thwart());
         BaseMod.addCard(new SpearWall());
+        BaseMod.addCard(new ReactiveArmor());
 
         // Uncommon Powers, 2
         BaseMod.addCard(new RetractingSpikes());

@@ -43,6 +43,10 @@
                 "NAME": "Prey",
                 "DESCRIPTIONS": ["When attacked, applies #b", " Battered to a random enemy."]
 },
+"theAbandoned:ReactiveArmorPower": {
+                "NAME": "Reactive Armor",
+                "DESCRIPTIONS": ["At the start of your next turn, deal #b", " damage to ALL enemies."]
+},
 "theAbandoned:RarePower": {
         "NAME": "Placeholder Power",
         "DESCRIPTIONS": ["At the start of your turn, TOUCH #b", " enemy." , " enemies."]

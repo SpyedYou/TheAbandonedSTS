@@ -20,6 +20,16 @@
       "Non-upgraded attack cards deal #b2 additional damage."
     ]
   },
+  "theAbandoned:GlowingRock": {
+    "NAME": "Glowing Rock",
+    "FLAVOR": "Glows with a mysterious power. Perhaps this could enhance some weapons?",
+    "DESCRIPTIONS": [
+      "Upon pickup, choose 2 cards. NL Permanently reduce those cards' [E] costs by #b1.",
+      "Choose 2 cards for ",
+      " and ",
+      " have had their costs reduced by 1."
+    ]
+  },
   "theAbandoned:TrainingGauntlets": {
     "NAME": "Training Gauntlets",
     "FLAVOR": "Leather gauntlets, ripped and beaten from use.",
