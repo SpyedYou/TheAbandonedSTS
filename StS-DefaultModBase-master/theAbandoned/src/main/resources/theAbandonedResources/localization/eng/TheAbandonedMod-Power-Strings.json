@@ -41,7 +41,7 @@
 },
 "theAbandoned:PreyPower": {
                 "NAME": "Prey",
-                "DESCRIPTIONS": ["When attacked, applies #b", " Battered to a random enemy."]
+                "DESCRIPTIONS": ["Upon taking damage, applies #b", " #yBattered to a random enemy."]
 },
 "theAbandoned:ReactiveArmorPower": {
                 "NAME": "Reactive Armor",
