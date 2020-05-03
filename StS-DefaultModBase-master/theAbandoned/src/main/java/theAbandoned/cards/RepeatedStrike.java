@@ -18,8 +18,8 @@ import static theAbandoned.TheAbandonedMod.makeCardPath;
 public class RepeatedStrike extends CustomCard {
 
     /*
-     * Deal 6 Damage.
-     * Add a Repeated Strike to your hand, with 3(5) increased damage
+     * Deal 8 Damage.
+     * Add a Repeated Strike to your hand, with 3(4) increased damage
      */
 
     public static final String ID = TheAbandonedMod.makeID(RepeatedStrike.class.getSimpleName());
@@ -39,8 +39,9 @@ public class RepeatedStrike extends CustomCard {
 
     private static final int COST = 1;
     private static final int DAMAGE = 6;
+    private static final int UPG_DAMAGE = 2;
     private static final int MAGIC_NUMBER = 3;
-    private static final int UPG_MAGIC_NUMBER = 2;
+    private static final int UPG_MAGIC_NUMBER = 1;
 
     public RepeatedStrike() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
@@ -71,6 +72,7 @@ public class RepeatedStrike extends CustomCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
+            upgradeDamage(UPG_DAMAGE);
             upgradeMagicNumber(UPG_MAGIC_NUMBER);
             rawDescription = UPGRADE_DESCRIPTION;
             initializeDescription();

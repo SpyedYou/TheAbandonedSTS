@@ -127,16 +127,12 @@ public class GlowingRock extends CustomRelic {
             // Show the 'upgraded' cards
             if (this.isDone && this.secondCard != null && this.card != null) {
                 //Get information for the cards to be shown
-                AbstractCard showCard1 = this.card.makeStatEquivalentCopy();
-                showCard1.updateCost(-1);
-                AbstractCard showCard2 = this.secondCard.makeStatEquivalentCopy();
-                showCard2.updateCost(-1);
 
                 this.addToTop(new WaitAction(Settings.ACTION_DUR_FAST));
                 AbstractDungeon.effectsQueue.add(new UpgradeShineEffect((float)Settings.WIDTH / 2.0F - AbstractCard.IMG_WIDTH / 2.0F - 20.0F * Settings.scale, (float)Settings.HEIGHT / 2.0F));
                 AbstractDungeon.effectsQueue.add(new UpgradeShineEffect((float)Settings.WIDTH / 2.0F + AbstractCard.IMG_WIDTH / 2.0F - 20.0F * Settings.scale, (float)Settings.HEIGHT / 2.0F));
-                AbstractDungeon.topLevelEffectsQueue.add(new ShowCardBrieflyEffect(showCard1, (float)Settings.WIDTH / 2.0F - AbstractCard.IMG_WIDTH / 2.0F - 20.0F * Settings.scale, (float)Settings.HEIGHT / 2.0F));
-                AbstractDungeon.topLevelEffectsQueue.add(new ShowCardBrieflyEffect(showCard2, (float)Settings.WIDTH / 2.0F + AbstractCard.IMG_WIDTH / 2.0F + 20.0F * Settings.scale, (float)Settings.HEIGHT / 2.0F));
+                AbstractDungeon.topLevelEffectsQueue.add(new ShowCardBrieflyEffect(this.card.makeStatEquivalentCopy(), (float)Settings.WIDTH / 2.0F - AbstractCard.IMG_WIDTH / 2.0F - 20.0F * Settings.scale, (float)Settings.HEIGHT / 2.0F));
+                AbstractDungeon.topLevelEffectsQueue.add(new ShowCardBrieflyEffect(this.secondCard.makeStatEquivalentCopy(), (float)Settings.WIDTH / 2.0F + AbstractCard.IMG_WIDTH / 2.0F + 20.0F * Settings.scale, (float)Settings.HEIGHT / 2.0F));
                 this.addToTop(new WaitAction(Settings.ACTION_DUR_MED));
             }
         }
