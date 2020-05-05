@@ -313,6 +313,7 @@ public class TheAbandonedMod implements
 
         //Character specific relics
         BaseMod.addRelicToCustomPool(new TrainingGauntlets(), TheAbandonedCharacter.Enums.COLOR_YELLOW);
+        BaseMod.addRelicToCustomPool(new VanityDagger(), TheAbandonedCharacter.Enums.COLOR_YELLOW);
 
         // This adds a relic to the Shared pool. Any character can find these relics.
         BaseMod.addRelic(new OldBadge(), RelicType.SHARED);

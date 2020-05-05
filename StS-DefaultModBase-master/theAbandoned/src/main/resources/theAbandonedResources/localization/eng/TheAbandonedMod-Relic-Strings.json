@@ -37,6 +37,13 @@
       "At the end of the turn, #yBattered enemies lose a quarter stacks rather than half."
     ]
   },
+  "theAbandoned:VanityDagger": {
+    "NAME": "Vanity Dagger",
+    "FLAVOR": "While this dagger was not meant for combat, it may still catch unsuspecting opponents off guard.",
+    "DESCRIPTIONS": [
+      "The first #yInitiative card triggered each combat triggers it's initiative effect twice."
+    ]
+  },
   "theAbandoned:AggressiveStance": {
     "NAME": "Aggressive Stance",
     "FLAVOR": "The first to draw blood earns the first rights of the feast",

@@ -5,6 +5,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import theAbandoned.powers.FirstCardPower;
+import theAbandoned.relics.VanityDagger;
 
 public class FirstCardPlayed extends AbstractGameAction {
     private AbstractPlayer p;
@@ -21,6 +22,11 @@ public class FirstCardPlayed extends AbstractGameAction {
         if((!AbstractDungeon.player.hasRelic("theAbandoned:MirrorPendant") && AbstractDungeon.actionManager.cardsPlayedThisTurn.size() == 1)
                 || this.p.hasPower(FirstCardPower.POWER_ID)) {
             AbstractDungeon.actionManager.addToTop(extraAction);
+        }
+        if(AbstractDungeon.player.hasRelic("theAbandoned:VanityDagger")) {
+            if(VanityDagger.activated) {
+                AbstractDungeon.actionManager.addToTop(extraAction);
+            }
         }
         this.isDone = true;
     }

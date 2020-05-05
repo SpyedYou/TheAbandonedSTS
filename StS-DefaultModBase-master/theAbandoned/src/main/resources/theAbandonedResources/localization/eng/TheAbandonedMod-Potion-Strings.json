@@ -5,6 +5,6 @@
 },
 "theAbandoned:DisengagingPotion": {
         "NAME": "Disengaging Potion",
-        "DESCRIPTIONS": ["Your next ", "Initiative card", "Initiative cards", " played this turn will trigger Initiative effects."]
+        "DESCRIPTIONS": ["Your next #y", " Initiative card", " Initiative cards", " played this turn will trigger Initiative effects."]
 }
 }
