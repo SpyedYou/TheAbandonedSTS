@@ -38,8 +38,8 @@ public class CleanseEvil extends CustomCard {
     public static final CardColor COLOR = TheAbandonedCharacter.Enums.COLOR_YELLOW;
 
     private static final int COST = 2;
-    private static final int DAMAGE = 24;
-    private static final int UPGRADE_PLUS_DMG = 4;
+    private static final int DAMAGE = 20;
+    private static final int UPGRADE_PLUS_DMG = 5;
 
     public CleanseEvil() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
@@ -54,7 +54,7 @@ public class CleanseEvil extends CustomCard {
         Iterator<AbstractMonster> var3 = AbstractDungeon.getCurrRoom().monsters.monsters.iterator();
 
         AbstractDungeon.actionManager.addToBottom(
-                new DamageAllEnemiesAction(p, this.multiDamage, this.damageTypeForTurn, AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
+                new DamageAllEnemiesAction(p, this.multiDamage, this.damageTypeForTurn, AbstractGameAction.AttackEffect.FIRE));
 
         while(var3.hasNext()) {
             AbstractMonster mo = var3.next();
