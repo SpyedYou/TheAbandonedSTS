@@ -42,6 +42,7 @@ public class WeaponThrowAction extends AbstractGameAction {
                     AbstractCard c = p.hand.getTopCard();
                     p.hand.moveToExhaustPile(c);
                     applyAction(c);
+                    this.isDone = true;
                 }
 
                 return;
