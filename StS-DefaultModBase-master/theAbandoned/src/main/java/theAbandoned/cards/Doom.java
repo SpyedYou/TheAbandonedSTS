@@ -21,7 +21,7 @@ import static theAbandoned.TheAbandonedMod.makeCardPath;
 public class Doom extends CustomCard {
 
     /*
-     * Deal 12(16) damage.
+     * Deal 18(22) damage.
      * Apply 2(3) Weak, Vulnerable and Battered to an enemy.
      */
 
@@ -39,7 +39,7 @@ public class Doom extends CustomCard {
     public static final CardColor COLOR = TheAbandonedCharacter.Enums.COLOR_YELLOW;
 
     private static final int COST = 1;
-    private static final int DAMAGE = 12;
+    private static final int DAMAGE = 18;
     private static final int UPG_DAMAGE = 4;
     private static final int MAGIC_NUM = 2;
     private static final int UPG_MAGIC_NUM = 1;

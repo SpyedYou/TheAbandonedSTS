@@ -18,7 +18,7 @@ import static theAbandoned.TheAbandonedMod.makeCardPath;
 public class ImpendingDoom extends CustomCard {
 
     /*
-     * Deal 12(16) damage.
+     * Deal 8(10) damage.
      * Shuffle a Doom into your draw pile.
      */
 
@@ -37,8 +37,8 @@ public class ImpendingDoom extends CustomCard {
     public static final CardColor COLOR = TheAbandonedCharacter.Enums.COLOR_YELLOW;
 
     private static final int COST = 1;
-    private static final int DAMAGE = 12;
-    private static final int UPG_DAMAGE = 4;
+    private static final int DAMAGE = 8;
+    private static final int UPG_DAMAGE = 2;
 
     public ImpendingDoom() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
