@@ -47,7 +47,7 @@ public class AndBack extends AbstractDynamicCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         AbstractDungeon.actionManager.addToBottom(new GainBlockAction(p, p, block));
         AbstractDungeon.actionManager.addToBottom(new FirstCardPlayed(
-                new AndBackAction(this, this.magicNumber)));
+                new AndBackAction(this, this.magicNumber), this));
     }
 
     //Add a glow check if another card hasn't been played yet

@@ -58,7 +58,7 @@ public class ExtendedStrike extends CustomCard {
 
         AbstractDungeon.actionManager.addToBottom(new FirstCardPlayed(
                 new DamageAction(m, new DamageInfo(p, (damage-3), damageTypeForTurn),
-                        AbstractGameAction.AttackEffect.BLUNT_LIGHT)));
+                        AbstractGameAction.AttackEffect.BLUNT_LIGHT), this));
     }
 
     //Add a glow check if another card hasn't been played yet

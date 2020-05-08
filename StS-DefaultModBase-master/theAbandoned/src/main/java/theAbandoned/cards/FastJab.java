@@ -60,7 +60,7 @@ public class FastJab extends CustomCard {
                         AbstractGameAction.AttackEffect.BLUNT_LIGHT));
         AbstractDungeon.actionManager.addToBottom(
                 new FirstCardPlayed(
-                        new DrawCardAction(p, this.magicNumber)));
+                        new DrawCardAction(p, this.magicNumber), this));
     }
 
     public void triggerOnGlowCheck() {

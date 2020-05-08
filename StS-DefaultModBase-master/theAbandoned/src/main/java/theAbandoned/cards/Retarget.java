@@ -51,7 +51,7 @@ public class Retarget extends CustomCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         AbstractDungeon.actionManager.addToBottom(
                 new FirstCardPlayed(
-                        new DrawCardAction(p, this.magicNumber)));
+                        new DrawCardAction(p, this.magicNumber), this));
     }
 
     //Add a glow check if another card hasn't been played yet

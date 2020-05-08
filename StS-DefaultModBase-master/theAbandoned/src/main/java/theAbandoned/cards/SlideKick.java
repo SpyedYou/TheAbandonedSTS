@@ -58,7 +58,7 @@ public class SlideKick extends CustomCard {
                 new DamageAction(m, new DamageInfo(p, damage, damageTypeForTurn),
                         AbstractGameAction.AttackEffect.BLUNT_LIGHT));
         AbstractDungeon.actionManager.addToBottom(new FirstCardPlayed(
-                new GainEnergyAction(1)));
+                new GainEnergyAction(1), this));
     }
 
     public void triggerOnGlowCheck() {

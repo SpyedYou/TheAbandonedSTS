@@ -66,7 +66,8 @@ public class WickedSwing extends CustomCard {
         while(var3.hasNext()) {
             AbstractMonster mo = var3.next();
             this.addToBot(new FirstCardPlayed(
-                    new ApplyPowerAction(mo, p, new VulnerablePower(mo, this.magicNumber, false), this.magicNumber, true, AbstractGameAction.AttackEffect.NONE)));
+                    new ApplyPowerAction(mo, p, new VulnerablePower(
+                            mo, this.magicNumber, false), this.magicNumber, true, AbstractGameAction.AttackEffect.NONE), this));
         }
     }
 

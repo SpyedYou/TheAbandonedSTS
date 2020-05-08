@@ -61,7 +61,7 @@ public class Backhand extends CustomCard {
                     AbstractGameAction.AttackEffect.BLUNT_LIGHT));
 
         AbstractDungeon.actionManager.addToBottom(new FirstCardPlayed(new ApplyPowerAction(
-                m, p, new WeakPower(m, this.magicNumber, false), this.magicNumber)));
+                m, p, new WeakPower(m, this.magicNumber, false), this.magicNumber), this));
     }
 
     //Add a glow check if another card hasn't been played yet. Used for all the 'if this card is the first card played'.

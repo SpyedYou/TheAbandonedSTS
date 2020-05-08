@@ -62,7 +62,7 @@ public class GutPunch extends CustomCard {
                         AbstractGameAction.AttackEffect.BLUNT_LIGHT));
         AbstractDungeon.actionManager.addToBottom(
                 new FirstCardPlayed(
-                        new ApplyPowerAction(m, p, new BatteredPower(m, p, this.magicNumber), this.magicNumber, true, AbstractGameAction.AttackEffect.NONE)));
+                        new ApplyPowerAction(m, p, new BatteredPower(m, p, this.magicNumber), this.magicNumber, true, AbstractGameAction.AttackEffect.NONE), this));
     }
 
     public void triggerOnGlowCheck() {
