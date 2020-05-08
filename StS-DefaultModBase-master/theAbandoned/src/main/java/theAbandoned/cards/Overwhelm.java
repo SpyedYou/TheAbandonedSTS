@@ -20,7 +20,8 @@ public class Overwhelm extends AbstractDynamicCard {
     private static final CardType TYPE = CardType.POWER;
     public static final CardColor COLOR = TheAbandonedCharacter.Enums.COLOR_YELLOW;
 
-    private static final int COST = 2;
+    private static final int COST = 3;
+    private static final int UPG_COST = 2;
     private static final int MAGIC = 1;
 
     public Overwhelm() {
@@ -38,8 +39,7 @@ public class Overwhelm extends AbstractDynamicCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            this.isInnate = true;
-            this.rawDescription = "Innate. NL " + this.rawDescription;
+            this.upgradeBaseCost(UPG_COST);
             initializeDescription();
         }
     }
