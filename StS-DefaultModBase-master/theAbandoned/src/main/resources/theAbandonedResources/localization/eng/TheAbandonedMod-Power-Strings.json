@@ -47,6 +47,10 @@
                 "NAME": "Reactive Armor",
                 "DESCRIPTIONS": ["At the start of your next turn, deal #b", " damage to ALL enemies."]
 },
+"theAbandoned:QuickThinking": {
+    "NAME": "Quick Thinking",
+    "DESCRIPTIONS": ["Whenever you trigger #bInitiative draw #b", " card", " cards"]
+},
 "theAbandoned:RarePower": {
         "NAME": "Placeholder Power",
         "DESCRIPTIONS": ["At the start of your turn, TOUCH #b", " enemy." , " enemies."]

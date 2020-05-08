@@ -166,7 +166,11 @@
   },
   "theAbandoned:ReactiveArmor": {
     "NAME": "Reactive Armor",
-    "DESCRIPTION": "Gain !B! Block. NL At the start of your next turn, deal damage to ALL enemies equal to half your Block when this card was played."
+    "DESCRIPTION": "Gain !B! Block. NL At the start of your next turn, deal damage to ALL enemies equal to half your Block."
+  },
+  "theAbandoned:QuickThinking": {
+    "NAME": "Quick Thinking",
+    "DESCRIPTION": "Whenever you trigger an theabandoned:Initiative effect, draw !M! card."
   },
   "theAbandoned:SwipeLow": {
     "NAME": "Swipe -Low-",

@@ -15,7 +15,6 @@ import com.evacipated.cardcrawl.modthespire.lib.SpireConfig;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
 import com.megacrit.cardcrawl.core.Settings;
-import com.megacrit.cardcrawl.dungeons.TheCity;
 import com.megacrit.cardcrawl.helpers.CardHelper;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.localization.*;
@@ -25,7 +24,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import theAbandoned.cards.*;
 import theAbandoned.characters.TheAbandonedCharacter;
-import theAbandoned.events.IdentityCrisisEvent;
 import theAbandoned.potions.DisengagingPotion;
 import theAbandoned.relics.*;
 import theAbandoned.util.IDCheckDontTouchPls;
@@ -379,7 +377,7 @@ public class TheAbandonedMod implements
 
 
         /*
-        * ~~~Uncommon Cards 21/35~~~
+        * ~~~Uncommon Cards 22/35~~~
         */
         // Uncommon Attacks, 11
         BaseMod.addCard(new ExtendedStrike());
@@ -404,9 +402,10 @@ public class TheAbandonedMod implements
         BaseMod.addCard(new SpearWall());
         BaseMod.addCard(new ReactiveArmor());
 
-        // Uncommon Powers, 2
+        // Uncommon Powers, 3
         BaseMod.addCard(new RetractingSpikes());
         BaseMod.addCard(new RecklessPlan());
+        BaseMod.addCard(new QuickThinking());
 
 
         /*
