@@ -40,6 +40,7 @@ public class CombatReadiness extends CustomCard {
     public CombatReadiness() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         magicNumber = baseMagicNumber = MAGIC_NUMBER;
+        this.exhaust = true;
     }
 
     @Override

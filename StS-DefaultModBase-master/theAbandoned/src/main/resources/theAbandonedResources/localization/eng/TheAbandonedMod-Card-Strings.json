@@ -174,8 +174,8 @@
   },
   "theAbandoned:CombatReadiness": {
     "NAME": "Combat Readiness",
-    "DESCRIPTION": "Reduce the cost of !M! card on the top of your draw pile by 1, then draw !M! card.",
-    "UPGRADE_DESCRIPTION": "Reduce the cost of !M! cards on the top of your draw pile by 1, then draw !M! cards."
+    "DESCRIPTION": "Reduce the cost of !M! card on the top of your draw pile by 1, then draw !M! card. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Reduce the cost of !M! cards on the top of your draw pile by 1, then draw !M! cards. NL Exhaust."
   },
   "theAbandoned:SwipeLow": {
     "NAME": "Swipe -Low-",

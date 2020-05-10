@@ -377,7 +377,7 @@ public class TheAbandonedMod implements
 
 
         /*
-        * ~~~Uncommon Cards 22/35~~~
+        * ~~~Uncommon Cards 23/35~~~
         */
         // Uncommon Attacks, 11
         BaseMod.addCard(new ExtendedStrike());
