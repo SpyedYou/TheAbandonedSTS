@@ -392,7 +392,7 @@ public class TheAbandonedMod implements
         BaseMod.addCard(new IronFist());
         BaseMod.addCard(new RepeatingStrikes());
 
-        // Uncommon Skills, 8
+        // Uncommon Skills, 9
         BaseMod.addCard(new Counterweight());
         BaseMod.addCard(new SparePlating());
         BaseMod.addCard(new Scout());
@@ -401,6 +401,7 @@ public class TheAbandonedMod implements
         BaseMod.addCard(new Thwart());
         BaseMod.addCard(new SpearWall());
         BaseMod.addCard(new ReactiveArmor());
+        BaseMod.addCard(new CombatReadiness());
 
         // Uncommon Powers, 3
         BaseMod.addCard(new RetractingSpikes());
