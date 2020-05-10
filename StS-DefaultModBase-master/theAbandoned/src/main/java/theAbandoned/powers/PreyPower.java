@@ -42,10 +42,13 @@ public class PreyPower extends AbstractPower implements CloneablePowerInterface 
         updateDescription();
     }
 
-    //When the enemy takes damage, apply battered to a random enemy.
+    // When the enemy takes damage, apply battered to a random enemy.
     @Override
     public int onAttacked(DamageInfo info, int damageAmount) {
-        AbstractDungeon.actionManager.addToBottom(new PreyBatteredAction(this));
+        // Shouldn't trigger on non-attack damage
+        if(info.type != DamageInfo.DamageType.NORMAL) {
+            AbstractDungeon.actionManager.addToBottom(new PreyBatteredAction(this));
+        }
         return damageAmount;
     }
 
